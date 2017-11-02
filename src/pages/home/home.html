@@ -1,17 +1,32 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>Home</ion-title>
+    <ion-title>SpotCall</ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  <h2>Welcome to Ionic!</h2>
-  <p>
-    This starter project comes with simple tabs-based layout for apps
-    that are going to primarily use a Tabbed UI.
-  </p>
-  <p>
-    Take a look at the <code>src/pages/</code> directory to add or change tabs,
-    update any existing page or create new pages.
-  </p>
+  <h2>My Locations</h2>
+  <ion-card>
+  <img src="img/costco.jpg">
+  <ion-item>
+    <ion-icon name="football" item-start large></ion-icon>
+    <h2>Costco Hsinchu</h2>
+  </ion-item>
+
+  <ion-item>
+    <span item-left>8 people</span>
+    <span item-left>(2 groups)</span>
+    <button ion-button icon-left clear item-end>
+      <ion-icon name="navigate"></ion-icon>
+      Start
+    </button>
+  </ion-item>
+
+  <ion-item>
+    <ion-label> Activate</ion-label>
+    <ion-toggle checked="false"></ion-toggle>
+  </ion-item>
+
+
+</ion-card>
 </ion-content>
