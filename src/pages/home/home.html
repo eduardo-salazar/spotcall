@@ -1,32 +1,82 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>SpotCall</ion-title>
+    <ion-title class="text-center">SpotCall</ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  <h2>My Locations</h2>
-  <ion-card>
-  <img src="img/costco.jpg">
-  <ion-item>
-    <ion-icon name="football" item-start large></ion-icon>
-    <h2>Costco Hsinchu</h2>
-  </ion-item>
+  <h2 class="text-center">My Locations</h2>
 
-  <ion-item>
-    <span item-left>8 people</span>
-    <span item-left>(2 groups)</span>
-    <button ion-button icon-left clear item-end>
-      <ion-icon name="navigate"></ion-icon>
-      Start
-    </button>
-  </ion-item>
+  <ion-card class="location-card">
+    <ion-row class="">
+      <ion-col class="" col-3>
+        <img src="/assets/imgs/costco.jpg"/>
+      </ion-col>
 
-  <ion-item>
-    <ion-label> Activate</ion-label>
-    <ion-toggle checked="false"></ion-toggle>
-  </ion-item>
+      <ion-col class="margin-top" col-7>
+        <h2>Costco Hsinchu</h2>
+        <p>8 people | 2 groups</p>
+      </ion-col>
 
+      <ion-col class="" col-2 align-self-center>
+        <ion-toggle checked></ion-toggle>
+      </ion-col>
 
-</ion-card>
+    </ion-row>
+  </ion-card>
+
+  <ion-card class="location-card">
+    <ion-row class="">
+      <ion-col class="" col-3>
+        <img src="/assets/imgs/smile.jpeg"/>
+      </ion-col>
+
+      <ion-col class="margin-top" col-7>
+        <h2>Smile Cafe NTHU</h2>
+        <p>8 people | 2 groups</p>
+      </ion-col>
+
+      <ion-col class="" col-2 align-self-center>
+        <ion-toggle checked></ion-toggle>
+      </ion-col>
+
+    </ion-row>
+  </ion-card>
+
+  <ion-card class="location-card">
+    <ion-row class="">
+      <ion-col class="" col-3>
+        <img src="/assets/imgs/7-eleven.png"/>
+      </ion-col>
+
+      <ion-col class="margin-top" col-7>
+        <h2>7 Eleven NTHU</h2>
+        <p>4 people</p>
+      </ion-col>
+
+      <ion-col class="" col-2 align-self-center>
+        <ion-toggle></ion-toggle>
+      </ion-col>
+
+    </ion-row>
+  </ion-card>
+
+  <ion-card class="location-card">
+    <ion-row class="">
+      <ion-col class="" col-3>
+        <img src="/assets/imgs/shuimu.jpeg"/>
+      </ion-col>
+
+      <ion-col class="margin-top" col-7>
+        <h2>Shuimu Restaurant (水木餐廳)</h2>
+        <p>8 people | 2 groups</p>
+      </ion-col>
+
+      <ion-col class="" col-2 align-self-center>
+        <ion-toggle checked></ion-toggle>
+      </ion-col>
+
+    </ion-row>
+  </ion-card>
+
 </ion-content>
